@@ -1,0 +1,817 @@
+2025-09-21 14:31:59 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-21 14:34:34 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-21 14:35:26 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-21 14:39:37 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-21 14:42:39 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-21 14:44:35 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-21 14:44:36 | INFO     | src.crawlers.base.base_crawler:crawl_all:46 - Starting crawl for bds123.vn
+2025-09-21 14:44:36 | INFO     | src.crawlers.base.observer:notify:38 - [bds123.vn] Crawl started
+2025-09-21 14:44:37 | INFO     | src.crawlers.base.base_crawler:crawl_all:62 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-21 14:44:37 | INFO     | src.crawlers.base.base_crawler:extract_property_links:125 - Crawling pages 1-10 in batch
+2025-09-22 09:50:55 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 09:51:47 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 09:54:17 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 09:55:38 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:00:40 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:01:01 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:01:14 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:01:14 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 10:01:14 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 10:01:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 10:01:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:01:36 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:07:07 | ERROR    | src.crawlers.base.observer:notify:52 - [sosanhnha.com] Crawl failed: 'NoneType' object has no attribute 'error'
+2025-09-22 10:07:07 | ERROR    | src.crawlers.base.base_crawler:crawl_all:71 - Crawl failed for sosanhnha.com: 'NoneType' object has no attribute 'error'
+2025-09-22 10:49:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:49:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:49:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:49:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:49:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:49:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 10:49:01 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 10:49:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:49:58 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:49:59 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:49:59 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:50:00 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:50:00 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:50:02 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 10:59:05 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 150 property links
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 150 property links
+2025-09-22 10:59:05 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 51 property links
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 51 property links
+2025-09-22 10:59:05 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 260 property links
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 260 property links
+2025-09-22 10:59:05 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 10:59:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 10:59:06 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:06 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 384 property links
+2025-09-22 10:59:06 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 384 property links
+2025-09-22 10:59:06 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:06 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 100 property links
+2025-09-22 10:59:06 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 100 property links
+2025-09-22 10:59:07 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 10:59:07 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:59:08 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 10:59:08 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 10:59:09 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:09 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 10:59:09 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 10:59:10 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 10:59:10 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 10:59:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 10:59:11 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 10:59:11 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 10:59:33 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://www.nhatot.com/mua-ban-quan-thanh-khe-da-nang/127804029.htm
+2025-09-22 10:59:34 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://www.nhatot.com/mua-ban-huyen-nha-be-tp-ho-chi-minh/126019278.htm#px=SR-special_display_ad-[PO-1][PL-default]
+2025-09-22 10:59:46 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 10:59:46 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:02:19 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:02:19 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:02:22 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:02:22 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:02:22 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:02:27 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 94 successful
+2025-09-22 11:02:27 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 94 properties
+2025-09-22 11:02:30 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:02:30 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:02:37 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:02:37 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:02:37 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:02:41 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 100 successful
+2025-09-22 11:02:41 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 100 properties
+2025-09-22 11:02:59 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:05:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://bds123.vn/ket-tien-ban-gap-ngoi-nha-tam-huyet-100m2-kdc-an-phu-tay-binh-chanh-gia-890tr-pr908326.html
+2025-09-22 11:05:58 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 116 successful
+2025-09-22 11:05:58 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 116 properties
+2025-09-22 11:08:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:08:28 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:08:33 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:08:33 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:08:33 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:08:39 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 360 successful
+2025-09-22 11:08:39 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 360 properties
+2025-09-22 11:30:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:30:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:30:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:30:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:30:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:30:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:30:42 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:30:42 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:30:43 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:30:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:31:36 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:31:40 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:31:42 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:31:43 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:31:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:31:44 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:32:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:32:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:32:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:32:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:32:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:32:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:32:10 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:32:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:33:04 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:33:06 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:33:08 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:33:10 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:33:11 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:33:15 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:33:49 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:33:49 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:33:49 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:33:49 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:33:49 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:33:49 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:33:50 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:33:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:34:39 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:34:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:34:42 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:34:43 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:34:43 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:34:43 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:34:44 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:34:44 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:34:45 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:34:45 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:34:45 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:34:45 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:34:46 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:34:46 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:34:47 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:34:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:34:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:34:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:34:57 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:34:57 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:34:58 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:34:58 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:35:01 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:35:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:35:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:35:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:35:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:35:50 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:35:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:38:00 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:04 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:04 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:04 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:04 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:38:04 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:38:04 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:05 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:08 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:38:08 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:38:08 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:38:08 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:38:08 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:09 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:38:09 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:38:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:09 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:38:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:38:10 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:38:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:38:10 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:38:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:38:12 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:38:13 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:38:20 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:38:21 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:38:21 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:38:22 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:38:22 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:39:38 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:38 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:39 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:40 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:40 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:41 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:45 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:39:45 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:39:45 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:39:45 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:39:45 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:39:46 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-22 11:39:47 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-22 11:39:48 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-22 11:39:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:40:30 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 21-40 in batch
+2025-09-22 11:40:46 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:46 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:46 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 50 property links
+2025-09-22 11:40:46 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 50 property links
+2025-09-22 11:40:46 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 512 property links
+2025-09-22 11:40:46 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 512 property links
+2025-09-22 11:40:47 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 36 property links
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 36 property links
+2025-09-22 11:40:47 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 340 property links
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 340 property links
+2025-09-22 11:40:47 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 165 property links
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 165 property links
+2025-09-22 11:40:47 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:40:47 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:40:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:40:50 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:40:51 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:40:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:40:57 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:40:57 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:40:58 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:40:58 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:40:58 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:41:12 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 2 successful
+2025-09-22 11:41:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 2 properties
+2025-09-22 11:41:13 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 11:41:14 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 11:41:15 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:41:15 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:41:17 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:41:17 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:41:17 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:41:20 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 8 successful
+2025-09-22 11:41:20 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 8 properties
+2025-09-22 11:42:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:42:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:42:13 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 20 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 20 property links
+2025-09-22 11:42:13 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:42:13 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 36 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 36 property links
+2025-09-22 11:42:13 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 96 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 96 property links
+2025-09-22 11:42:13 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:13 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 240 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:42:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 240 property links
+2025-09-22 11:42:15 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:15 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 25 property links
+2025-09-22 11:42:15 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 25 property links
+2025-09-22 11:42:15 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:42:15 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:42:17 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 50 successful
+2025-09-22 11:42:17 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 50 properties
+2025-09-22 11:42:17 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:42:17 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:42:17 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:17 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:42:17 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:42:19 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:19 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:42:19 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:42:25 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://bds123.vn/nhadep-gia-quat-long-bien-via-he-lo-goc-kinh-doanh-sam-uat-mat-pho-o-to-tranh-2-pr908342.html
+2025-09-22 11:42:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:42:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:42:51 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:42:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:42:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:42:52 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 2 successful
+2025-09-22 11:42:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 2 properties
+2025-09-22 11:42:58 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 11:42:58 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:43:09 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 11:43:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 11:43:14 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 3 successful
+2025-09-22 11:43:14 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 3 properties
+2025-09-22 11:43:21 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 33 successful
+2025-09-22 11:43:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 33 properties
+2025-09-22 11:43:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:43:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:43:27 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:27 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:43:27 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:43:32 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 23 successful
+2025-09-22 11:43:32 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 23 properties
+2025-09-22 11:43:53 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:53 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 225 property links
+2025-09-22 11:43:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 225 property links
+2025-09-22 11:43:54 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 640 property links
+2025-09-22 11:43:54 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 640 property links
+2025-09-22 11:43:55 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:55 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 20 property links
+2025-09-22 11:43:55 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 20 property links
+2025-09-22 11:43:56 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:56 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:56 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 380 property links
+2025-09-22 11:43:56 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 380 property links
+2025-09-22 11:43:56 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:43:56 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:43:56 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:43:56 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:43:56 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:43:58 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:43:58 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:43:58 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:43:58 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:44:00 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:00 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:00 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:44:00 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:00 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:00 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:44:05 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-phuong-long-toan-1/ban-320m2-tai-tp-ba-ria-nay-la-ba-ria-tp-ho-chi-minh-pr44076510
+2025-09-22 11:44:06 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-xa-long-hoa-prj-vinhomes-green-paradise/-can-gio-dau-tu-chac-thang-lon-vi-tri-lan-bien-vi-the-chua-tung-co-trong-lich-su-bds-pr44076358
+2025-09-22 11:44:06 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-nha-biet-thu-lien-ke-thi-tran-van-giang-prj-alluvia-city/dong-tien-dau-tu-thong-minh-vi-sao-song-lap-200m-tai-du-an-dang-xuong-tien-pr43967447
+2025-09-22 11:44:08 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 0 successful
+2025-09-22 11:44:08 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 0 properties
+2025-09-22 11:44:10 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 11:44:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:44:12 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-dat-duong-tan-thanh-43-thi-tran-tan-thanh_1/ban-mat-tien-43-gan-tthc-bac-uyen-pr39190906
+2025-09-22 11:44:19 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-an-phu-17-phuong-an-phu-2-prj-a-k-tower/ak-tam-khoang-nong-gia-tot-pr44073980
+2025-09-22 11:44:20 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-xa-lo-ha-noi-phuong-thao-dien-prj-masteri-thao-dien/ban-nhanh-sang-trong-2pn-gia-7-3-ty-view-tang-cao-dep-lh-pr43389555
+2025-09-22 11:44:20 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-can-ho-chung-cu-duong-bang-liet-phuong-hoang-liet-prj-ha-noi-melody-residences/chinh-chu-gui-ban-100m2-3pn-du-an-linh-dam-gia-tot-nt-thi-truong-pr44076028
+2025-09-22 11:44:23 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://batdongsan.com.vn/ban-can-ho-chung-cu-phuong-lam-ha_1-prj-sun-urban-city/so-huu-duplex-du-an-gia-chi-tu-1-2-ty-chiet-khau-toi-25-vay-70-gtch-pr43967479
+2025-09-22 11:44:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:44:28 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:44:29 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:29 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:30 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:44:48 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:48 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 18 property links
+2025-09-22 11:44:48 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 18 property links
+2025-09-22 11:44:48 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:49 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:44:49 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:49 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 256 property links
+2025-09-22 11:44:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 256 property links
+2025-09-22 11:44:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:44:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:44:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:44:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:44:53 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:53 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:44:53 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:53 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:44:54 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 25 property links
+2025-09-22 11:44:55 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 25 property links
+2025-09-22 11:44:59 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:44:59 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:44:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:45:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:45:01 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:45:02 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:45:02 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 60 property links
+2025-09-22 11:45:02 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 60 property links
+2025-09-22 11:45:03 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:45:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:45:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:45:13 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:45:13 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:45:17 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 0 successful
+2025-09-22 11:45:17 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 0 properties
+2025-09-22 11:45:22 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 0 successful
+2025-09-22 11:45:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 0 properties
+2025-09-22 11:45:23 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:45:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:45:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:45:30 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 11:45:30 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 11:46:01 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 11:46:01 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:46:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:46:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:46:06 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 2 successful
+2025-09-22 11:46:06 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 2 properties
+2025-09-22 11:46:09 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:46:09 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:46:09 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:46:16 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:46:16 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:46:18 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:46:18 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:46:18 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:46:32 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 0 successful
+2025-09-22 11:46:32 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 0 properties
+2025-09-22 11:46:32 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 18 successful
+2025-09-22 11:46:32 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 18 properties
+2025-09-22 11:46:33 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 60 successful
+2025-09-22 11:46:33 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 60 properties
+2025-09-22 11:46:35 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 25 successful
+2025-09-22 11:46:35 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 25 properties
+2025-09-22 11:46:40 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:46:40 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:46:45 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:46:45 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:46:45 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:46:50 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 40 successful
+2025-09-22 11:46:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 40 properties
+2025-09-22 11:47:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:47:59 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:04 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:04 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:04 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:11 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 120 successful
+2025-09-22 11:48:11 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 120 properties
+2025-09-22 11:48:21 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:21 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:21 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:21 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:21 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:21 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:22 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:22 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:22 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:22 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:22 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 15 property links
+2025-09-22 11:48:22 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 15 property links
+2025-09-22 11:48:22 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:22 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:22 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:23 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 352 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 352 property links
+2025-09-22 11:48:23 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:23 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 20 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 20 property links
+2025-09-22 11:48:23 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:23 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:48:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:24 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:48:24 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:24 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:48:24 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:25 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:48:25 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:25 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:25 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:26 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:26 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:26 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:26 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:26 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:27 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:27 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:27 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:27 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 0 successful
+2025-09-22 11:48:27 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 0 properties
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 0 successful
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 0 properties
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 0 successful
+2025-09-22 11:48:28 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 0 properties
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 0 successful
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 0 properties
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 0 successful
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 0 properties
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 0 successful
+2025-09-22 11:48:29 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 0 properties
+2025-09-22 11:48:32 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:48:32 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:48:33 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:48:33 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:48:33 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:48:38 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 8 successful
+2025-09-22 11:48:38 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 8 properties
+2025-09-22 11:49:50 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:50 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:50 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:49:50 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:49:51 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:51 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:51 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 360 property links
+2025-09-22 11:49:51 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 360 property links
+2025-09-22 11:49:51 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:52 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:49:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:49:52 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/thue-nha-dat
+2025-09-22 11:49:52 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:49:53 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 0 successful
+2025-09-22 11:49:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 0 properties
+2025-09-22 11:49:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-cho-thue
+2025-09-22 11:49:53 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/thue-bat-dong-san
+2025-09-22 11:49:53 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:49:53 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:49:54 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:54 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:54 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:49:54 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:49:55 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 44 successful
+2025-09-22 11:49:55 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 44 properties
+2025-09-22 11:49:56 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 0 successful
+2025-09-22 11:49:56 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 0 properties
+2025-09-22 11:49:56 | INFO     | src.crawlers.base.observer:notify:50 - [mogi.vn] Crawl completed: 0 successful
+2025-09-22 11:49:56 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for mogi.vn: 0 properties
+2025-09-22 11:49:57 | INFO     | src.crawlers.base.observer:notify:50 - [batdongsan.com.vn] Crawl completed: 0 successful
+2025-09-22 11:49:57 | INFO     | src.crawlers.base.observer:notify:50 - [nhatot.com] Crawl completed: 0 successful
+2025-09-22 11:49:57 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for nhatot.com: 0 properties
+2025-09-22 11:49:57 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for batdongsan.com.vn: 0 properties
+2025-09-22 11:50:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/cho-thue-nha-dat
+2025-09-22 11:50:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:50:05 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:50:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:50:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:50:07 | INFO     | src.crawlers.base.observer:notify:50 - [muaban.net] Crawl completed: 0 successful
+2025-09-22 11:50:07 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for muaban.net: 0 properties
+2025-09-22 11:54:00 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-cla7kyRLb
+2025-09-22 11:54:00 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-40m2-cap-4-khu-tdc-giang-bien-vi-tri-vang-gan-truong-chu-van-an-duong-11m-o-to-tranh-claL1awkR
+2025-09-22 11:54:00 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-co-tho-cu-gan-ubnd-phuong-phu-tan-cho-tu-dien-tp-ben-tre-cu-cla6A9BPD
+2025-09-22 11:54:00 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-dan-xay-4-tang-o-cho-thang-may-268-pho-ngoc-thuy-long-bien-68-2m-10-7-ty-clad16Wol
+2025-09-22 11:54:00 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-phan-dang-luu-phu-nhuan-can-goc-3-mat-thoang-gia-7-85-ty-claqjxVBo
+2025-09-22 11:54:00 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-pho-1-tret-3-lau-mat-tien-cho-bach-hoa-tong-hop-cho-cai-von-dien-luc-binh-minh-claEZo5aM
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-hoan-thien-4-tang-mat-tien-kinh-doanh-ngay-cho-cai-von-claqjQbKA
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-mat-pho-trieu-viet-vuong-hai-ba-trung-11-tang-150m2-mat-tien-6-5m-gia-195-ty-claGaQyzd
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-manh-dat-mat-pho-nguyen-chi-thanh-gia-279-ty-420m2-mt-11-5m-clazMqA56
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-dat-quy-hoach-canh-truong-cap-3-xa-phu-vang-cla8xgEAL
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-ban-nhanh-ch-sacomreal-584-q-tan-phu-75m-2pn-gia-2-95-ty-claa8yl72
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-ban-gap-nha-mat-pho-nguyen-luong-bang-gia-30-8-ty-85m2-mt-5-1m-cla0jwgyo
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-biet-thu-lien-ke-khu-the-eden-rose-xa-thanh-liet-thanh-tri-ha-noi-claMw8YXL
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-can-goc-2pn-view-pho-trung-tam-soi-dong-capital-square-da-nang-clalj7M8x
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-goc-hon-13m-mat-tien-cho-bach-hoa-tong-hop-cho-cai-von-vinh-long-claQED5BG
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-mat-pho-ton-duc-thang-gia-27-ty-50mx7-tang-mt-5-2m-claZ5wL3g
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-chung-cu-shophouse-ct4-vinh-diem-trung-88m2-claoGoVqy
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-claVY46yg
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-3pn-dt-104-28m-capital-square-view-song-han-von-ban-dau-2-5-ty-ck-den-17-clamPm7zq
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-cla7kyRLb
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-tien-ban-gap-can-ho-binh-minh-duong-luong-dinh-cua-q-2-108m2-5-8-ty-claJ2M6Dx
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-tien-ban-nhanh-mat-pho-trung-phung-xa-dan-gia-26-ty-65m2-can-goc-claNYzB1y
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-claAaJYl2
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-40m2-cap-4-khu-tdc-giang-bien-vi-tri-vang-gan-truong-chu-van-an-duong-11m-o-to-tranh-claL1awkR
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-lo-dat-dt-70m2-duong-xe-hoi-so-rieng-tho-cu-2-ty-3-kp1-phuong-tan-hiep-cla3kR161
+2025-09-22 11:54:02 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-co-tho-cu-gan-ubnd-phuong-phu-tan-cho-tu-dien-tp-ben-tre-cu-cla6A9BPD
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-dan-xay-4-tang-o-cho-thang-may-268-pho-ngoc-thuy-long-bien-68-2m-10-7-ty-clad16Wol
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-hem-4m-lac-long-quan-5-3-x-15m-p-3-q-11-nha-moi-o-lien-gia-12-ty-tl-clayjGlEj
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-dat-duong-phan-triem-kdt-st-hoa-xuan-gd2-da-nang-cla9Kd5NV
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-5-tang-lo-goc-full-noi-that-khu-vip-phu-nhuan-chi-5-99-ty-clad1K9zl
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-chcc-green-valley-dt-89m2-thiet-ke-2-phong-ngu-2-toilet-noi-that-day-du-gia-ban-8-ty-cla5k5YbB
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-4-tang-no-hau-trung-tam-phu-nhuan-clagBwdxE
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-phan-dang-luu-phu-nhuan-can-goc-3-mat-thoang-gia-7-85-ty-claqjxVBo
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-4-tang-phung-van-cung-p7-phu-nhuan-dang-co-dong-tien-thue-15-trieu-thang-chi-5-6-ty-cla9KabbP
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-hem-o-to-phan-tay-ho-phuong-7-phu-nhuan-3-tang-gia-chi-5-9-ty-claGa5MYq
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-pho-1-tret-3-lau-mat-tien-cho-bach-hoa-tong-hop-cho-cai-von-dien-luc-binh-minh-claEZo5aM
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-hoan-thien-4-tang-mat-tien-kinh-doanh-ngay-cho-cai-von-claqjQbKA
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-mat-pho-trieu-viet-vuong-hai-ba-trung-11-tang-150m2-mat-tien-6-5m-gia-195-ty-claGaQyzd
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-manh-dat-mat-pho-nguyen-chi-thanh-gia-279-ty-420m2-mt-11-5m-clazMqA56
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-dat-quy-hoach-canh-truong-cap-3-xa-phu-vang-cla8xgEAL
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-ban-nhanh-ch-sacomreal-584-q-tan-phu-75m-2pn-gia-2-95-ty-claa8yl72
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-ban-gap-nha-mat-pho-nguyen-luong-bang-gia-30-8-ty-85m2-mt-5-1m-cla0jwgyo
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-biet-thu-lien-ke-khu-the-eden-rose-xa-thanh-liet-thanh-tri-ha-noi-claMw8YXL
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-can-goc-2pn-view-pho-trung-tam-soi-dong-capital-square-da-nang-clalj7M8x
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-goc-hon-13m-mat-tien-cho-bach-hoa-tong-hop-cho-cai-von-vinh-long-claQED5BG
+2025-09-22 11:54:04 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-mat-pho-ton-duc-thang-gia-27-ty-50mx7-tang-mt-5-2m-claZ5wL3g
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-chung-cu-shophouse-ct4-vinh-diem-trung-88m2-claoGoVqy
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-claVY46yg
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-3pn-dt-104-28m-capital-square-view-song-han-von-ban-dau-2-5-ty-ck-den-17-clamPm7zq
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-cla7kyRLb
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-tien-ban-gap-can-ho-binh-minh-duong-luong-dinh-cua-q-2-108m2-5-8-ty-claJ2M6Dx
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/can-tien-ban-nhanh-mat-pho-trung-phung-xa-dan-gia-26-ty-65m2-can-goc-claNYzB1y
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/chinh-chu-ban-gap-nha-nam-cuong-soc-son-xa-noi-bai-140m-nha-moi-2-9-ty-claAaJYl2
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-40m2-cap-4-khu-tdc-giang-bien-vi-tri-vang-gan-truong-chu-van-an-duong-11m-o-to-tranh-claL1awkR
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-lo-dat-dt-70m2-duong-xe-hoi-so-rieng-tho-cu-2-ty-3-kp1-phuong-tan-hiep-cla3kR161
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-co-tho-cu-gan-ubnd-phuong-phu-tan-cho-tu-dien-tp-ben-tre-cu-cla6A9BPD
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-dan-xay-4-tang-o-cho-thang-may-268-pho-ngoc-thuy-long-bien-68-2m-10-7-ty-clad16Wol
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-hem-4m-lac-long-quan-5-3-x-15m-p-3-q-11-nha-moi-o-lien-gia-12-ty-tl-clayjGlEj
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-dat-duong-phan-triem-kdt-st-hoa-xuan-gd2-da-nang-cla9Kd5NV
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-5-tang-lo-goc-full-noi-that-khu-vip-phu-nhuan-chi-5-99-ty-clad1K9zl
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-chcc-green-valley-dt-89m2-thiet-ke-2-phong-ngu-2-toilet-noi-that-day-du-gia-ban-8-ty-cla5k5YbB
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-4-tang-no-hau-trung-tam-phu-nhuan-clagBwdxE
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-phan-dang-luu-phu-nhuan-can-goc-3-mat-thoang-gia-7-85-ty-claqjxVBo
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-4-tang-phung-van-cung-p7-phu-nhuan-dang-co-dong-tien-thue-15-trieu-thang-chi-5-6-ty-cla9KabbP
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/ban-nha-hem-o-to-phan-tay-ho-phuong-7-phu-nhuan-3-tang-gia-chi-5-9-ty-claGa5MYq
+2025-09-22 11:54:07 | WARNING  | src.crawlers.base.base_crawler:crawl_single_property:160 - Failed to crawl property: https://sosanhnha.com/nha-pho-1-tret-3-lau-mat-tien-cho-bach-hoa-tong-hop-cho-cai-von-dien-luc-binh-minh-claEZo5aM
+2025-09-22 11:54:11 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-cho-thu%C3%AA
+2025-09-22 11:54:11 | INFO     | src.crawlers.base.base_crawler:extract_property_links:90 - Crawling pages 1-20 in batch
+2025-09-22 11:54:12 | ERROR    | src.crawlers.base.base_crawler:extract_property_links:105 - Error in batch crawling: 'NoneType' object is not iterable
+2025-09-22 11:54:12 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 0 property links
+2025-09-22 11:54:12 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 0 property links
+2025-09-22 11:54:14 | ERROR    | src.crawlers.base.observer:notify:52 - [sosanhnha.com] Crawl failed: 'NoneType' object has no attribute 'error'
+2025-09-22 11:54:14 | ERROR    | src.crawlers.base.base_crawler:crawl_all:71 - Crawl failed for sosanhnha.com: 'NoneType' object has no attribute 'error'
