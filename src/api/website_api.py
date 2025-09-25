@@ -2,7 +2,7 @@ import subprocess
 
 from fastapi import FastAPI, HTTPException, BackgroundTasks, Body
 from starlette.middleware.cors import CORSMiddleware
-
+from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
 from src.config.settings import Config
 
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -33,6 +33,16 @@ jobstores = {
         collection='apscheduler_jobs'
     )
 }
+
+
+
+def job_listener(event):
+    if event.exception:
+        logging.error(f"Job {event.job_id} failed: {event.exception}")
+    else:
+        logging.info(f"Job {event.job_id} executed successfully.")
+
+scheduler.add_listener(job_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
 scheduler = BackgroundScheduler(jobstores=jobstores, timezone="Asia/Ho_Chi_Minh")
 scheduler.start()
 
@@ -65,13 +75,12 @@ def disable_websites(names: list[str] = Body(..., embed=True)):
 
 
 @app.post("/crawl_now")
-def crawl_now(websites: list[str] = None, background_tasks: BackgroundTasks = None):
+def crawl_now(websites: list[str] = None):
     """
     Cào ngay lập tức các website (hoặc tất cả nếu không truyền)
     """
-    if websites is None:
-        websites = [ws.name for ws in WebsiteStateRepository.get_all() if ws.enabled]
-    background_tasks.add_task(run_crawl, websites)
+    logging.info(f"API /crawl_now called with: {websites}")
+    run_crawl(websites)
     return {"message": f"Started crawling: {websites}"}
 
 @app.post("/stop_now")
@@ -126,14 +135,22 @@ def schedule_crawl(interval_hours: int = 24, websites: list[str] = None):
     return {"message": f"Scheduled crawl for {websites or 'all'} at hours {hours} (every {interval_hours}h from 2AM)"}
 
 
+import os
+
 def run_crawl(websites=None):
     logging.info(f"Scheduler triggered crawl for: {websites}")
     global crawl_processes
     if not websites:
         websites = [ws.name for ws in WebsiteStateRepository.get_all() if ws.enabled]
+    main_path = os.path.join(os.path.dirname(__file__), "..", "main.py")
+    main_path = os.path.abspath(main_path)
     for name in websites:
-        proc = subprocess.Popen(["python", "main.py", "--action", "test", "--website", name])
-        crawl_processes[name] = proc
+        logging.info(f"Starting subprocess for: {name}")
+        try:
+            proc = subprocess.Popen(["python", main_path, "--action", "test", "--website", name])
+            crawl_processes[name] = proc
+        except Exception as e:
+            logging.error(f"Failed to start subprocess for {name}: {e}")
 
 
 @app.get("/current_schedule")

@@ -31,7 +31,7 @@ class RealEstateProperty(BaseModel):
     area: Optional[float] = Field(None, description="Diện tích (m²)")
     unit_price: Optional[float] = Field(None, description="Đơn giá (VND/m²)")
     link: str = Field(..., description="Link bài đăng - dùng để xử lý trùng lặp")
-    datepost: Optional[str] = Field(None, description="Ngày đăng")
+    datepost: Optional[datetime] = Field(None, description="Ngày đăng")
     bedroom: Optional[int] = Field(None, description="Số phòng ngủ")
     bathroom: Optional[int] = Field(None, description="Số phòng tắm")
     legal: Optional[str] = Field(None, description="Pháp lý")

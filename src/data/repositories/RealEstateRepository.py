@@ -1,3 +1,4 @@
+import logging
 from typing import Dict, Any, List
 
 from ..database.connection import db
@@ -20,30 +21,23 @@ class RealEstateRepository:
                 print(f"✅ Connected to MongoDB: {config.MONGODB_DATABASE}")
 
     def save_property(self, property_data: RealEstateProperty) -> str:
-        """Lưu property data từ crawler"""
-        # print("[Repository] save_property called with:", type(property_data), property_data)
         try:
-            # Convert to dict and handle ObjectId
             data_dict = property_data.model_dump(by_alias=True)
-
-            # Check for duplicates by link
             existing = db.db.properties.find_one({"link": property_data.link})
             if existing:
                 data_dict.pop('_id', None)
-                # Update existing
                 db.db.properties.update_one(
                     {"link": property_data.link},
                     {"$set": data_dict}
                 )
-                print(f"Updated property: {property_data.link}")
+                logging.info(f"Updated property: {property_data.link}")
                 return str(existing["_id"])
             else:
-                # Insert new
                 result = db.db.properties.insert_one(data_dict)
-                print(f"Inserted property: {property_data.link}")
+                logging.info(f"Inserted property: {property_data.link}")
                 return str(result.inserted_id)
         except Exception as e:
-            print(f"Error saving property: {e}")
+            logging.error(f"Error saving property: {e}")
             return ""
 
     def save_crawl_stats(self, stats: CrawlStats) -> str:

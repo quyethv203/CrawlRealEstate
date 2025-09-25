@@ -75,6 +75,7 @@ class BaseCrawler(ABC):
         all_links = []
         page = 1
         batch_size = config.LINK_PER_BATCH
+        total_pages_crawled = 0
         while True:
             batch_urls = []
             page_numbers = []
@@ -99,14 +100,16 @@ class BaseCrawler(ABC):
                         soup = BeautifulSoup(result.html, 'html.parser')
                         page_links = self.extract_links_from_page(soup)
                         all_links.extend(page_links)
-                        # if len(all_links) >= config.LINK_PER_BATCH:
-                        #     return all_links[:config.LINK_PER_BATCH]
+                total_pages_crawled += len(batch_urls)
             except Exception as e:
                 self.logger.error(f"Error in batch crawling: {e}")
                 break
             page += len(batch_urls)
             await asyncio.sleep(self.delay)
         self.logger.info(f"Finished crawling, found {len(all_links)} property links")
+        # Cập nhật số page đã crawl vào crawl_stats nếu có
+        if self.crawl_stats:
+            self.crawl_stats.total_pages = total_pages_crawled
         return all_links
 
     async def crawl_property_details_batch(self, crawler: AsyncWebCrawler, property_links: List[Dict[str, Any]]) -> List[RealEstateProperty]:
@@ -121,6 +124,7 @@ class BaseCrawler(ABC):
                 unique_links.append(prop)
             else:
                 duplicate_count += 1
+            self.logger.info(f"Property link: {prop['url']} - Exists: {self.repository.exists_by_link(prop['url'])}")
 
         for i in range(0, len(unique_links), batch_size):
             batch = unique_links[i:i + batch_size]
@@ -140,7 +144,7 @@ class BaseCrawler(ABC):
             self.crawl_stats.duplicate_items = duplicate_count
             self.crawl_stats.failed_items = failed_count
             self.crawl_stats.successful_items = len(properties)
-            self.crawl_stats.total_items = len(property_links)
+            self.crawl_stats.total_items = len(properties) + failed_count + duplicate_count
 
         return properties
 
@@ -157,7 +161,7 @@ class BaseCrawler(ABC):
                     property_data['link'] = url
                     return RealEstateProperty(**property_data)
             else:
-                self.logger.warning(f"Failed to crawl property: {url}")
+                self.logger.error(f"Error crawling property {property_link.get('url', '')}: {e}")
         except Exception as e:
             self.logger.error(f"Error crawling property {property_link.get('url', '')}: {e}")
         return None

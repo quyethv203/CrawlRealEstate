@@ -11,9 +11,9 @@ rate_limiter = RateLimiter(
 
 def dispatcherConfig(): # arun.many()
     return MemoryAdaptiveDispatcher(
-        memory_threshold_percent=8.5,
+        memory_threshold_percent=85,
         check_interval=3,
-        max_session_permit=20,
+        max_session_permit=50,
         rate_limiter= rate_limiter
     )
 
@@ -60,7 +60,7 @@ def browserConfig(): # asyncwebcrawler
 
 def crawlerRunConfig(): #arun
     return CrawlerRunConfig(
-        page_timeout=30000,
+        page_timeout=60000,
         delay_before_return_html=3.0,
         simulate_user=True,
         cache_mode=CacheMode.BYPASS
