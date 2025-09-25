@@ -1,3 +1,4 @@
+import os
 import subprocess
 
 from fastapi import FastAPI, HTTPException, BackgroundTasks, Body
@@ -10,7 +11,7 @@ from apscheduler.jobstores.mongodb import MongoDBJobStore
 
 from src.data.database.connection import db
 from src.data.repositories.WebsiteStateRepository import WebsiteStateRepository
-from utils import logging
+import logging
 
 app = FastAPI()
 app.add_middleware(
@@ -42,8 +43,9 @@ def job_listener(event):
     else:
         logging.info(f"Job {event.job_id} executed successfully.")
 
-scheduler.add_listener(job_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
+
 scheduler = BackgroundScheduler(jobstores=jobstores, timezone="Asia/Ho_Chi_Minh")
+scheduler.add_listener(job_listener, EVENT_JOB_EXECUTED | EVENT_JOB_ERROR)
 scheduler.start()
 
 
@@ -135,15 +137,14 @@ def schedule_crawl(interval_hours: int = 24, websites: list[str] = None):
     return {"message": f"Scheduled crawl for {websites or 'all'} at hours {hours} (every {interval_hours}h from 2AM)"}
 
 
-import os
 
 def run_crawl(websites=None):
     logging.info(f"Scheduler triggered crawl for: {websites}")
     global crawl_processes
     if not websites:
         websites = [ws.name for ws in WebsiteStateRepository.get_all() if ws.enabled]
-    main_path = os.path.join(os.path.dirname(__file__), "..", "main.py")
-    main_path = os.path.abspath(main_path)
+    # Sửa đường dẫn tới main.py ở thư mục gốc dự án
+    main_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "main.py"))
     for name in websites:
         logging.info(f"Starting subprocess for: {name}")
         try:
@@ -151,7 +152,6 @@ def run_crawl(websites=None):
             crawl_processes[name] = proc
         except Exception as e:
             logging.error(f"Failed to start subprocess for {name}: {e}")
-
 
 @app.get("/current_schedule")
 def current_schedule():
