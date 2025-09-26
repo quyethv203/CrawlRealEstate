@@ -130,7 +130,7 @@ class BDS123Crawler(BaseCrawler):
                     "tr:has(div:contains('Ngày đăng')) time",
                     "tr td time"
                 ],
-                "postprocess": lambda v: parse_date(v).strftime('%d/%m/%Y') if parse_date(v) else None
+                "postprocess": lambda v: parse_date(v).replace(hour=0, minute=0, second=0, microsecond=0) if parse_date(v) else None
             },
             "city": {
                 "custom": lambda soup, data: extract_city_from_address(data.get('address', ''))

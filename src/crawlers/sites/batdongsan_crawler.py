@@ -181,7 +181,10 @@ class BatDongSanCrawler(BaseCrawler):
                 datepost = value.get_text(strip=True)
                 break
         date_obj = parse_date(datepost)
-        data['datepost'] = date_obj.strftime('%d/%m/%Y') if date_obj else None
+        if date_obj:
+        # Đặt giờ phút giây về 0 để chỉ lưu ngày/tháng/năm
+            date_obj = date_obj.replace(hour=0, minute=0, second=0, microsecond=0)
+        data['datepost'] = date_obj if date_obj else None
 
         # City
         data['city'] = extract_city_from_address(data['address']) if data.get('address') else None
