@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 from fastapi import FastAPI, HTTPException, BackgroundTasks, Body
 from starlette.middleware.cors import CORSMiddleware
@@ -144,16 +145,16 @@ def schedule_crawl(interval_hours: int = 24, websites: list[str] = None):
 
 
 def run_crawl(websites=None):
+    import sys
     logging.info(f"Scheduler triggered crawl for: {websites}")
     global crawl_processes
     if not websites:
         websites = [ws.name for ws in WebsiteStateRepository.get_all() if ws.enabled]
-    # Sửa đường dẫn tới main.py ở thư mục gốc dự án
     main_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "main.py"))
     for name in websites:
         logging.info(f"Starting subprocess for: {name}")
         try:
-            proc = subprocess.Popen(["python", main_path, "--action", "test", "--website", name])
+            proc = subprocess.Popen([sys.executable, main_path, "--action", "test", "--website", name])
             crawl_processes[name] = proc
         except Exception as e:
             logging.error(f"Failed to start subprocess for {name}: {e}")
