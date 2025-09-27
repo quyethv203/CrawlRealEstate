@@ -90,6 +90,7 @@ def stop_now(websites: list[str] = None):
     """
     Dừng các tiến trình cào ngay lập tức
     """
+    import time
     global crawl_processes
     stopped = []
     if not websites:
@@ -98,6 +99,10 @@ def stop_now(websites: list[str] = None):
         proc = crawl_processes.get(name)
         if proc and proc.poll() is None:  # Nếu process còn chạy
             proc.terminate()
+            try:
+                proc.wait(timeout=5)  # Đợi process tự thoát trong 5s
+            except subprocess.TimeoutExpired:
+                proc.kill()  # Nếu không tự thoát, kill luôn
             stopped.append(name)
             crawl_processes.pop(name, None)
     return {"message": f"Stopped crawling: {stopped}"}

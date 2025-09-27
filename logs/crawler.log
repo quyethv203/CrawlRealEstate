@@ -13597,3 +13597,37 @@ datepost
 2025-09-26 23:01:03 | ERROR    | src.crawlers.base.base_crawler:crawl_all:71 - Crawl failed for bds123.vn: 'NoneType' object has no attribute 'error'
 2025-09-26 23:01:15 | ERROR    | src.crawlers.base.observer:notify:52 - [nhatot.com] Crawl failed: 'NoneType' object has no attribute 'error'
 2025-09-26 23:01:15 | ERROR    | src.crawlers.base.base_crawler:crawl_all:71 - Crawl failed for nhatot.com: 'NoneType' object has no attribute 'error'
+2025-09-27 11:33:57 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-27 11:33:57 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-27 11:33:57 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-27 11:33:57 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-27 11:33:57 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for batdongsan.com.vn
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.observer:notify:46 - [batdongsan.com.vn] Crawl started
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for mogi.vn
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.observer:notify:46 - [mogi.vn] Crawl started
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for muaban.net
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.observer:notify:46 - [muaban.net] Crawl started
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for sosanhnha.com
+2025-09-27 11:33:59 | INFO     | src.crawlers.base.observer:notify:46 - [sosanhnha.com] Crawl started
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://batdongsan.com.vn/nha-dat-ban
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-20 in batch
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-20 in batch
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://sosanhnha.com/nh%C3%A0-%C4%91%E1%BA%A5t-b%C3%A1n
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-20 in batch
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-27 11:34:05 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-20 in batch
+2025-09-27 11:34:06 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://muaban.net/bat-dong-san/ban-nha-dat-chung-cu
+2025-09-27 11:34:06 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-20 in batch
+2025-09-27 11:34:06 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://mogi.vn/mua-nha-dat
+2025-09-27 11:34:06 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-20 in batch
+2025-09-27 11:35:08 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 21-40 in batch
+2025-09-27 11:35:17 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 21-40 in batch
+2025-09-27 11:35:23 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 21-40 in batch
+2025-09-27 11:35:29 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 21-40 in batch
+2025-09-27 11:35:33 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 21-40 in batch

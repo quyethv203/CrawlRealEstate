@@ -24,7 +24,7 @@ async def test_detail(urls):
                 continue
 
             soup = BeautifulSoup(result.html, "html.parser")
-            website_name = "sosanhnha.com"
+            website_name = "batdongsan.com.vn"
             website_config = Config.WEBSITES[website_name]
             llm_service = LLMService()
             crawler_instance = CrawlerFactory.create_crawler(website_name, website_config)
@@ -47,8 +47,8 @@ async def test_detail(urls):
 
 if __name__ == "__main__":
     urls = [
-        "https://sosanhnha.com/cho-thue-nha-xuong-11-300-m-kcn-chau-duc-brvt-clawD8bo2",
-        "https://sosanhnha.com/chuyen-nhuong-lo-dat-dep-kinh-doanh-buon-ban-tot-gia-mem-mat-duong-351-cla6A9Bdo",
-        "https://sosanhnha.com/biet-thu-400m2-sd-quan-2-compound-luong-dinh-cua-tran-nao-5pn-6wc-moi-1ham-4l-31t500-dep-cla4xEwyN"
+        "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-duong-dai-lo-vong-cung-phuong-an-khanh-prj-the-galleria-residence/cho-duplex-day-du-noi-that-view-quan-1-dep-lung-linh-tai-galleria-pr43970779",
+        # "https://batdongsan.com.vn/cho-thue-nha-rieng-duong-huynh-van-banh-phuong-13-9/cho-5x20m-4tang-5pn-san-thuong-40-trieu-thang-pr43826765",
+        # "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-duong-n1-phuong-son-ky-prj-diamond-alnata/cho-2pn-2wc-khu-celadon-city-16-trieu-thang-bao-phi-quan-ly-pr43970713"
     ]
     asyncio.run(test_detail(urls))
