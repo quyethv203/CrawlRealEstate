@@ -155,7 +155,7 @@ class BDS123Crawler(BaseCrawler):
                         value = conf["custom"](soup, data)
                     else:
                         value = conf["custom"](soup)
-                except Exception:
+                except Exception as e:
                     value = None
             elif "selectors" in conf:
                 value = self._extract_text_by_selector(soup, conf["selectors"])
@@ -196,6 +196,6 @@ class BDS123Crawler(BaseCrawler):
                     element = soup.select_one(selector)
                     if element:
                         return element.get_text(strip=True)
-            except Exception:
+            except Exception as e:
                 continue
         return ""

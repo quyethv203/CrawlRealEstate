@@ -128,7 +128,7 @@ class MogiCrawler(BaseCrawler):
             # 11. Dateposted
             date_obj = parse_date(info_map.get('Ngày đăng', None))
             if date_obj:
-    # Đặt giờ phút giây về 0 để chỉ lưu ngày/tháng/năm
+            # Đặt giờ phút giây về 0 để chỉ lưu ngày/tháng/năm
                 date_obj = date_obj.replace(hour=0, minute=0, second=0, microsecond=0)
             data['datepost'] = date_obj if date_obj else None
 
@@ -170,6 +170,6 @@ class MogiCrawler(BaseCrawler):
                     element = soup.select_one(selector)
                     if element:
                         return element.get_text(strip=True)
-            except Exception:
+            except Exception as e:
                 continue
         return ""

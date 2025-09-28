@@ -191,6 +191,6 @@ class MuaBanCrawler(BaseCrawler):
                     element = soup.select_one(selector)
                     if element:
                         return element.get_text(strip=True)
-            except Exception:
+            except Exception as e:
                 continue
         return ""
