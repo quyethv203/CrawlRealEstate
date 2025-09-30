@@ -160,8 +160,6 @@ class BaseCrawler(ABC):
                     property_data['crawled_at'] = datetime.now()
                     property_data['link'] = url
                     return RealEstateProperty(**property_data)
-            else:
-                self.logger.error(f"Error crawling property {property_link.get('url', '')}: {e}")
         except Exception as e:
             self.logger.error(f"Error crawling property {property_link.get('url', '')}: {e}")
         return None

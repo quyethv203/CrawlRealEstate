@@ -38,6 +38,7 @@ class RealEstateRepository:
                 return str(result.inserted_id)
         except Exception as e:
             logging.error(f"Error saving property: {e}")
+            print("❌ Error saving property:", property_data.link, e)
             return ""
 
     def save_crawl_stats(self, stats: CrawlStats) -> str:
