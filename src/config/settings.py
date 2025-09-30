@@ -33,7 +33,7 @@ class Config:
                 'login': True,
                 'login_url': 'https://batdongsan.com.vn/sellernet/trang-dang-nhap',
                 'enabled': True,
-                'delay': CRAWL_DELAY
+                'delay': self.CRAWL_DELAY
             },
             'nhatot.com': {
                 'base_url': 'https://www.nhatot.com/',
@@ -44,7 +44,7 @@ class Config:
                 'login': True,
                 'login_url': 'https://id.chotot.com/?continue=https://www.nhatot.com/in-popup-authorize-callback&event_source=navigation',
                 'enabled': True,
-                'delay': CRAWL_DELAY
+                'delay': self.CRAWL_DELAY
             },
             'muaban.net': {
                 'base_url': 'https://muaban.net/',
@@ -55,7 +55,7 @@ class Config:
                 'login': True,
                 'login_url': 'https://muaban.net/account/login?returnUrl=https%3A%2F%2Fmuaban.net%2Fbat-dong-san',
                 'enabled': True,
-                'delay': CRAWL_DELAY
+                'delay': self.CRAWL_DELAY
             },
             'bds123.vn': {
                 'base_url': 'https://bds123.vn/',
@@ -65,7 +65,7 @@ class Config:
                 'login': False,
                 'login_url': '',
                 'enabled': True,
-                'delay': CRAWL_DELAY
+                'delay': self.CRAWL_DELAY
             },
             'sosanhnha.com': {
                 'base_url': 'https://sosanhnha.com/',
@@ -76,7 +76,7 @@ class Config:
                 'login': False,
                 'login_url': '',
                 'enabled': True,
-                'delay': CRAWL_DELAY
+                'delay': self.CRAWL_DELAY
             },
             'mogi.vn': {
                 'base_url': 'https://mogi.vn/',
@@ -87,7 +87,7 @@ class Config:
                 'login': False,
                 'login_url': '',
                 'enabled': True,
-                'delay': CRAWL_DELAY
+                'delay': self.CRAWL_DELAY
             },
         }
 
