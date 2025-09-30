@@ -15977,3 +15977,108 @@ datepost
 2025-09-30 21:07:54 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://sosanhnha.com/cho-thue-phong-ban-cong-30m2-chi-7-trieu-nguyen-thai-binh-tan-binh-claNYzKyL - Exists: False
 2025-09-30 21:07:54 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://sosanhnha.com/nha-7-x-25-moi-xay-ngay-truong-cao-dang-cong-thuong-claYE19NJ - Exists: False
 2025-09-30 21:07:54 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://sosanhnha.com/cho-thue-nha-mat-tien-3-tang-ham-nghi-vi-tri-dep-claXxj5mQ - Exists: False
+2025-09-30 21:13:30 | INFO     | src.crawlers.base.observer:notify:50 - [sosanhnha.com] Crawl completed: 62 successful
+2025-09-30 21:13:30 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for sosanhnha.com: 62 properties
+2025-09-30 21:17:23 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-30 21:17:56 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-30 21:17:56 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-30 21:17:56 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-30 21:17:57 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-30 21:17:57 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-1 in batch
+2025-09-30 21:18:04 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 20 property links
+2025-09-30 21:18:04 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 20 property links
+2025-09-30 21:18:04 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/cuc-hot-nhinh-11-ty-pho-bui-xuong-trach-dt-65m-lo-goc-o-to-do-cua-3-thoang-2-pr908589.html - Exists: False
+2025-09-30 21:18:04 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-hxt-8m-gan-mat-tien-pham-van-dong-san-5-tang-co-san-thuong-tien-o-kinh-doanh-pr908633.html - Exists: False
+2025-09-30 21:18:04 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-2-tang-kiet-oto-che-lan-vien-cach-bien-3-phut-pr908601.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-lo-goc-doi-dien-aeon-long-bien-nha-5-tang-nho-thong-duong-oto-tranh-pr908542.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-246m2-cach-bien-200m-goc-2-mat-tien-ho-thau-tt-son-tra-pr908577.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-lo-goc-nha-dep-o-va-kinh-doanh-4-tang-tt-van-dien-thanh-tri-gia-thoa-thuan-pr908541.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ccmn-o-to-gan-nha-moi-36m-8-ty-9-phong-khep-kin-thang-thu-30-trieu-cuc-nhieu-khach-tim-pr908562.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/chinh-chu-can-ban-nha-cap-4-02-pn-01-phong-khach-pr908600.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/chinh-chu-ban-nha-nho-dtsd-34-m-duong-tx13-p-thanh-xuan-q12-pr719693.html - Exists: True
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dt-cuc-tot-200m2-dat-duong-hiep-binh-noi-that-full-dep-gia-co-hon-8-ty-pr908561.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/lo-goc-2-thoang-dan-tu-xay-nha-dep-o-suong-tuong-lai-rang-ngoi-pr908391.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-2-lau-full-noi-that-5x25-gia-chi-2ty860-binh-duong-pr908628.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-3-tang-binh-tan-ten-lua-80m-4x20-pr908497.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-dep-trung-tam-ngo-quyen-ha-dong-45m-mat-tien-39m-gia-chi-83-ty-pr908624.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-6-tang-nam-du-khung-cot-be-tong-chac-chan-o-cho-thang-may-58m-so-do-chinh-chu-pr908384.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-moi-xay-thang-may-oto-10m-ra-pho-no-hau-so-dep-phan-lo-pr908385.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nhinh-6-ty-co-nha-ha-dong-o-to-do-cua-so-cat-ket-pr908420.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-dep-5-tang-phan-dinh-giot-la-khe-ha-dong-gia-chi-72-ty-pr908623.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-3-tang-kiet-2-9-75m-gia-chi-595-ty-hai-chau-pr908416.html - Exists: False
+2025-09-30 21:18:05 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-3-tang-doc-lap-tran-nguyen-han-le-chan-hai-phong-2-pr908554.html - Exists: False
+2025-09-30 21:18:15 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:15 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:15 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:15 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:15 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:17 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:17 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:17 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:17 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:17 | ERROR    | src.services.llm_service:_call_llm_api:158 - Error calling LLM API: name 'config' is not defined
+2025-09-30 21:18:25 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 19 successful
+2025-09-30 21:18:25 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 19 properties
+2025-09-30 21:20:31 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-30 21:20:31 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-30 21:20:31 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-30 21:20:32 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-30 21:20:32 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-1 in batch
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 20 property links
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 20 property links
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/cuc-hot-nhinh-11-ty-pho-bui-xuong-trach-dt-65m-lo-goc-o-to-do-cua-3-thoang-2-pr908589.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-hxt-8m-gan-mat-tien-pham-van-dong-san-5-tang-co-san-thuong-tien-o-kinh-doanh-pr908633.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-2-tang-kiet-oto-che-lan-vien-cach-bien-3-phut-pr908601.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-lo-goc-doi-dien-aeon-long-bien-nha-5-tang-nho-thong-duong-oto-tranh-pr908542.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-246m2-cach-bien-200m-goc-2-mat-tien-ho-thau-tt-son-tra-pr908577.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-lo-goc-nha-dep-o-va-kinh-doanh-4-tang-tt-van-dien-thanh-tri-gia-thoa-thuan-pr908541.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ccmn-o-to-gan-nha-moi-36m-8-ty-9-phong-khep-kin-thang-thu-30-trieu-cuc-nhieu-khach-tim-pr908562.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/chinh-chu-can-ban-nha-cap-4-02-pn-01-phong-khach-pr908600.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/chinh-chu-ban-nha-nho-dtsd-34-m-duong-tx13-p-thanh-xuan-q12-pr719693.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dt-cuc-tot-200m2-dat-duong-hiep-binh-noi-that-full-dep-gia-co-hon-8-ty-pr908561.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/lo-goc-2-thoang-dan-tu-xay-nha-dep-o-suong-tuong-lai-rang-ngoi-pr908391.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-2-lau-full-noi-that-5x25-gia-chi-2ty860-binh-duong-pr908628.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-3-tang-binh-tan-ten-lua-80m-4x20-pr908497.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-dep-trung-tam-ngo-quyen-ha-dong-45m-mat-tien-39m-gia-chi-83-ty-pr908624.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-6-tang-nam-du-khung-cot-be-tong-chac-chan-o-cho-thang-may-58m-so-do-chinh-chu-pr908384.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-moi-xay-thang-may-oto-10m-ra-pho-no-hau-so-dep-phan-lo-pr908385.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nhinh-6-ty-co-nha-ha-dong-o-to-do-cua-so-cat-ket-pr908420.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-dep-5-tang-phan-dinh-giot-la-khe-ha-dong-gia-chi-72-ty-pr908623.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-3-tang-kiet-2-9-75m-gia-chi-595-ty-hai-chau-pr908416.html - Exists: True
+2025-09-30 21:20:39 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-3-tang-doc-lap-tran-nguyen-han-le-chan-hai-phong-2-pr908554.html - Exists: True
+2025-09-30 21:20:42 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 0 successful
+2025-09-30 21:20:42 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 0 properties
+2025-09-30 21:22:13 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-30 21:22:14 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for bds123.vn
+2025-09-30 21:22:14 | INFO     | src.crawlers.base.observer:notify:46 - [bds123.vn] Crawl started
+2025-09-30 21:22:14 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://bds123.vn/ban-nha.html
+2025-09-30 21:22:14 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-1 in batch
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 20 property links
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 20 property links
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/cuc-hot-nhinh-11-ty-pho-bui-xuong-trach-dt-65m-lo-goc-o-to-do-cua-3-thoang-2-pr908589.html - Exists: False
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-hxt-8m-gan-mat-tien-pham-van-dong-san-5-tang-co-san-thuong-tien-o-kinh-doanh-pr908633.html - Exists: False
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-2-tang-kiet-oto-che-lan-vien-cach-bien-3-phut-pr908601.html - Exists: False
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-lo-goc-doi-dien-aeon-long-bien-nha-5-tang-nho-thong-duong-oto-tranh-pr908542.html - Exists: False
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-246m2-cach-bien-200m-goc-2-mat-tien-ho-thau-tt-son-tra-pr908577.html - Exists: False
+2025-09-30 21:22:21 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/sieu-pham-lo-goc-nha-dep-o-va-kinh-doanh-4-tang-tt-van-dien-thanh-tri-gia-thoa-thuan-pr908541.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ccmn-o-to-gan-nha-moi-36m-8-ty-9-phong-khep-kin-thang-thu-30-trieu-cuc-nhieu-khach-tim-pr908562.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/chinh-chu-can-ban-nha-cap-4-02-pn-01-phong-khach-pr908600.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/chinh-chu-ban-nha-nho-dtsd-34-m-duong-tx13-p-thanh-xuan-q12-pr719693.html - Exists: True
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dt-cuc-tot-200m2-dat-duong-hiep-binh-noi-that-full-dep-gia-co-hon-8-ty-pr908561.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/lo-goc-2-thoang-dan-tu-xay-nha-dep-o-suong-tuong-lai-rang-ngoi-pr908391.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-2-lau-full-noi-that-5x25-gia-chi-2ty860-binh-duong-pr908628.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-3-tang-binh-tan-ten-lua-80m-4x20-pr908497.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-dep-trung-tam-ngo-quyen-ha-dong-45m-mat-tien-39m-gia-chi-83-ty-pr908624.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-6-tang-nam-du-khung-cot-be-tong-chac-chan-o-cho-thang-may-58m-so-do-chinh-chu-pr908384.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nha-dep-moi-xay-thang-may-oto-10m-ra-pho-no-hau-so-dep-phan-lo-pr908385.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/nhinh-6-ty-co-nha-ha-dong-o-to-do-cua-so-cat-ket-pr908420.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-dep-5-tang-phan-dinh-giot-la-khe-ha-dong-gia-chi-72-ty-pr908623.html - Exists: False
+2025-09-30 21:22:22 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-3-tang-kiet-2-9-75m-gia-chi-595-ty-hai-chau-pr908416.html - Exists: False
+2025-09-30 21:22:23 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://bds123.vn/ban-nha-3-tang-doc-lap-tran-nguyen-han-le-chan-hai-phong-2-pr908554.html - Exists: False
+2025-09-30 21:23:31 | INFO     | src.crawlers.base.observer:notify:50 - [bds123.vn] Crawl completed: 19 successful
+2025-09-30 21:23:31 | INFO     | src.crawlers.base.base_crawler:crawl_all:64 - Completed crawl for bds123.vn: 19 properties
+2025-09-30 21:24:02 | INFO     | src.utils.logging:setup_logging:30 - Logging system initialized
+2025-09-30 21:24:02 | INFO     | src.crawlers.base.base_crawler:crawl_all:42 - Starting crawl for nhatot.com
+2025-09-30 21:24:02 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
+2025-09-30 21:24:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
+2025-09-30 21:24:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-1 in batch

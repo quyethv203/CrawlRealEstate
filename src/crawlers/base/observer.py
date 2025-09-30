@@ -97,9 +97,10 @@ class ProgressObserver(CrawlerObserver):
 
 class LLMProcessingObserver(CrawlerObserver):
     def __init__(self, llm_service, downstream_observers=None):
+        config = Config()
         self.llm_service = llm_service
         self.batch = []
-        self.batch_size = Config.LLM_BATCH_SIZE
+        self.batch_size = config.LLM_BATCH_SIZE
         self.downstream_observers = downstream_observers or []
         self.tasks = []  # Thêm dòng này
 

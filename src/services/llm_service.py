@@ -17,10 +17,11 @@ class LLMService:
 
     def __init__(self):
         self.logger = get_logger("llm_service")
-        self.api_token = Config.LLM_API_TOKEN
-        self.provider = Config.LLM_PROVIDER
-        self.batch_size = Config.LLM_BATCH_SIZE
-        self.enabled = Config.LLM_ENABLED
+        self.config = Config()
+        self.api_token = self.config.LLM_API_TOKEN
+        self.provider = self.config.LLM_PROVIDER
+        self.batch_size = self.config.LLM_BATCH_SIZE
+        self.enabled = self.config.LLM_ENABLED
 
         self.gemini_semaphore = asyncio.Semaphore(1)  # Limit concurrent Gemini requests
         # Property types mapping
@@ -160,7 +161,7 @@ class LLMService:
     async def _call_openai_api(self, prompt: str) -> Optional[Dict[str, Any]]:
         """Call OpenAI-compatible API (Ollama, LM Studio, etc.)"""
         try:
-            url = f"{Config.LLM_API_BASE_URL}/chat/completions"
+            url = f"{self.config.LLM_API_BASE_URL}/chat/completions"
             headers = {
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {self.api_token}" if self.api_token else None
@@ -199,8 +200,7 @@ class LLMService:
         return None
 
     async def _call_gemini_api(self, prompt: str) -> Optional[Dict[str, Any]]:
-
-        url = Config.LLM_API_BASE_URL
+        url = self.config.LLM_API_BASE_URL
         headers = {
             "Content-Type": "application/json",
             "x-goog-api-key": self.api_token
