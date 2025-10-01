@@ -13,7 +13,7 @@ class Config:
         self.CRAWL_DELAY = int(os.getenv('CRAWL_DELAY', '2'))
         self.LINK_PER_BATCH = int(os.getenv('LINK_PER_PATCH', '20'))
         self.ITEM_PER_BATCH = int(os.getenv('ITEM_PER_PATCH', '20'))
-        self.PAGES_SITE = int(os.getenv('PAGES_SITE', '1'))
+        self.PAGES_SITE = int(os.getenv('PAGES_PER_SITE', '1'))
         self.LLM_BATCH_SIZE = int(os.getenv('LLM_BATCH_SIZE', '10'))
         self.LLM_ENABLED = os.getenv('LLM_ENABLED', 'True').lower() == 'true'
         self.LLM_PROVIDER = os.getenv('LLM_PROVIDER', 'gemini/gemini-2.0-flash')
