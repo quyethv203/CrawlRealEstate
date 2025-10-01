@@ -16082,3 +16082,30 @@ datepost
 2025-09-30 21:24:02 | INFO     | src.crawlers.base.observer:notify:46 - [nhatot.com] Crawl started
 2025-09-30 21:24:03 | INFO     | src.crawlers.base.base_crawler:crawl_all:53 - Crawling search URL: https://www.nhatot.com/mua-ban-bat-dong-san
 2025-09-30 21:24:03 | INFO     | src.crawlers.base.base_crawler:extract_property_links:91 - Crawling pages 1-1 in batch
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:extract_property_links:109 - Finished crawling, found 25 property links
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_all:55 - Found 25 property links
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-nha-dat-thanh-pho-bien-hoa-dong-nai/126317119.htm#px=SR-stickyad-[PO-1][PL-top] - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-dat-quan-lien-chieu-da-nang/127217424.htm#px=SR-stickyad-[PO-1][PL-top] - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-dat-huyen-trang-bang-tay-ninh/127990537.htm#px=SR-stickyad-[PO-1][PL-top] - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-nha-dat-quan-tan-binh-tp-ho-chi-minh/128037285.htm#px=SR-stickyad-[PO-1][PL-top] - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-son-tra-da-nang/127743001.htm#px=SR-stickyad-[PO-1][PL-top] - Exists: True
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-12-tp-ho-chi-minh/128045323.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-12-tp-ho-chi-minh/127783515.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-7-tp-ho-chi-minh/128081962.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-huyen-phong-dien-can-tho/126086535.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-huyen-chon-thanh-binh-phuoc/128038090.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-10-tp-ho-chi-minh/127815945.htm#px=SR-special_display_ad-[PO-1][PL-default] - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-phu-nhuan-tp-ho-chi-minh/128081956.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-thu-duc-tp-ho-chi-minh/126935733.htm - Exists: False
+2025-09-30 21:24:10 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-1-tp-ho-chi-minh/128081954.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-thu-duc-tp-ho-chi-minh/128081951.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-tan-binh-tp-ho-chi-minh/128081945.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-qui-nhon-binh-dinh/127530352.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-bien-hoa-dong-nai/127718888.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-bien-hoa-dong-nai/128081942.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-go-vap-tp-ho-chi-minh/128060251.htm#px=SR-special_display_ad-[PO-1][PL-default] - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-huyen-binh-chanh-tp-ho-chi-minh/128081937.htm#px=SR-special_display_ad-[PO-1][PL-default] - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-thu-duc-tp-ho-chi-minh/128081938.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-binh-thanh-tp-ho-chi-minh/128081933.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-thanh-pho-qui-nhon-binh-dinh/126855566.htm - Exists: False
+2025-09-30 21:24:11 | INFO     | src.crawlers.base.base_crawler:crawl_property_details_batch:127 - Property link: https://www.nhatot.com/mua-ban-quan-binh-tan-tp-ho-chi-minh/127429745.htm - Exists: False
