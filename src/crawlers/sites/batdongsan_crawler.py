@@ -173,18 +173,18 @@ class BatDongSanCrawler(BaseCrawler):
         data['legal'] = clean_text(legal_text) if legal_text else None
 
         # Date posted
-        datepost = None
+        postedDate = None
         for item in soup.select('.re__pr-short-info-item'):
             label = item.select_one('.title')
             value = item.select_one('.value')
             if label and value and "ngày đăng" in label.get_text(strip=True).lower():
-                datepost = value.get_text(strip=True)
+                postedDate = value.get_text(strip=True)
                 break
-        date_obj = parse_date(datepost)
+        date_obj = parse_date(postedDate)
         if date_obj:
         # Đặt giờ phút giây về 0 để chỉ lưu ngày/tháng/năm
             date_obj = date_obj.replace(hour=0, minute=0, second=0, microsecond=0)
-        data['datepost'] = date_obj if date_obj else None
+        data['postedDate'] = date_obj if date_obj else None
 
         # City
         data['city'] = extract_city_from_address(data['address']) if data.get('address') else None

@@ -59,7 +59,7 @@ class LLMService:
         """Process a single batch of properties"""
         FIELDS = [
             "title", "address", "price", "area", "unit_price", "seller", "bedroom", "bathroom",
-            "frontage", "legal", "datepost", "description", "link", "city", "amenityLocation", "type"
+            "frontage", "legal", "postedDate", "description", "link", "city", "amenityLocation", "type"
         ]
         try:
             # Prepare batch request
@@ -287,9 +287,9 @@ class LLMService:
                         prop.frontage = extract_frontage(str(llm_data['frontage']))
                     if 'legal' in llm_data:
                         prop.legal = clean_text(llm_data['legal'])
-                    if 'datepost' in llm_data:
-                        date_obj = parse_date(llm_data['datepost'])
-                        prop.datepost = date_obj.strftime('%d/%m/%Y') if date_obj else None
+                    if 'postedDate' in llm_data:
+                        date_obj = parse_date(llm_data['postedDate'])
+                        prop.postedDate = date_obj.strftime('%d/%m/%Y') if date_obj else None
                     if 'description' in llm_data:
                         prop.description = clean_text(llm_data['description'])
                     if 'link' in llm_data:

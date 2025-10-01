@@ -138,16 +138,16 @@ class MuaBanCrawler(BaseCrawler):
             legal = self._extract_text_by_selector(soup, legal_selectors)
             data['legal'] = clean_text(legal)
 
-            # 11. Dateposted
-            datepost_selectors = [
+            # 11. postedDateed
+            postedDate_selectors = [
                 'div.sc-6orc5o-21.ebxmhG div:has(span.label:-soup-contains("Ngày bắt đầu")) span.value'
             ]
-            datepost = self._extract_text_by_selector(soup, datepost_selectors)
-            date_obj = parse_date(datepost)
+            postedDate = self._extract_text_by_selector(soup, postedDate_selectors)
+            date_obj = parse_date(postedDate)
             if date_obj:
                 # Đặt giờ phút giây về 0 để chỉ lưu ngày/tháng/năm
                 date_obj = date_obj.replace(hour=0, minute=0, second=0, microsecond=0)
-            data['datepost'] = date_obj if date_obj else None
+            data['postedDate'] = date_obj if date_obj else None
 
             # 12. Description
             description_selectors = [

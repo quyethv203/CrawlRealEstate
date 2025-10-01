@@ -125,12 +125,12 @@ class MogiCrawler(BaseCrawler):
             # 10. Legal
             data['legal'] = clean_text(info_map.get('Pháp lý', None))
 
-            # 11. Dateposted
+            # 11. postedDateed
             date_obj = parse_date(info_map.get('Ngày đăng', None))
             if date_obj:
             # Đặt giờ phút giây về 0 để chỉ lưu ngày/tháng/năm
                 date_obj = date_obj.replace(hour=0, minute=0, second=0, microsecond=0)
-            data['datepost'] = date_obj if date_obj else None
+            data['postedDate'] = date_obj if date_obj else None
 
             # 12. Description
             description_selectors = [

@@ -125,7 +125,7 @@ class BDS123Crawler(BaseCrawler):
                 ],
                 "postprocess": clean_text
             },
-            "datepost": {
+            "postedDate": {
                 "selectors": [
                     "tr:has(div:contains('Ngày đăng')) time",
                     "tr td time"
