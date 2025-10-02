@@ -23,15 +23,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-db.connect(Config.MONGODB_URI)
-WebsiteStateRepository.init_states(Config.WEBSITES)
+config = Config()
+db.connect(config.MONGODB_URI)
+WebsiteStateRepository.init_states(config.WEBSITES)
 crawl_processes = {}
 
 # Persistent job store với MongoDB
 jobstores = {
     'default': MongoDBJobStore(
-        host=Config.MONGODB_URI,
-        database=Config.MONGODB_DATABASE,
+        host=config.MONGODB_URI,
+        database=config.MONGODB_DATABASE,
         collection='apscheduler_jobs'
     )
 }
@@ -126,7 +127,7 @@ def schedule_crawl(interval_hours: int = 24, websites: list[str] = None):
         hours = [2]
 
     # Nếu chỉ có 1 giờ, truyền số nguyên, nếu nhiều giờ truyền list số nguyên
-    hour_arg = hours[0] if len(hours) == 1 else hours
+    hour_arg = ",".join(str(h) for h in hours)
 
     job_id = "crawl_main"  # Luôn dùng 1 job_id duy nhất
     if scheduler.get_job(job_id):
