@@ -3,8 +3,9 @@ import asyncio
 from typing import Any
 from src.config.settings import Config
 from src.data.models.RealEstateModel import RealEstateProperty
+from src.utils.logging import get_logger
 
-
+logger = get_logger("llm_service")
 class CrawlerObserver(ABC):
     """Abstract observer for crawler events"""
 
@@ -27,12 +28,12 @@ class DataSaveObserver(CrawlerObserver):
                 # print(f"[DataSaveObserver] Saving property: {getattr(data, 'link', None)}")
                 self.repository.save_property(data)
             except Exception as e:
-                print(f"[DataSaveObserver] Error saving property: {e}")
+                logger.error(f"[DataSaveObserver] Error saving property: {e}")
         elif event_type == "crawl_completed":
             try:
                 self.repository.save_crawl_stats(data)
             except Exception as e:
-                print(f"[DataSaveObserver] Error saving crawl stats: {e}")
+                logger.error(f"[DataSaveObserver] Error saving crawl stats: {e}")
 
 
 class LoggingObserver(CrawlerObserver):
@@ -116,17 +117,16 @@ class LLMProcessingObserver(CrawlerObserver):
                 self.tasks.append(task)
 
     async def _process_batch(self, source):
-
         if self.batch:
-
             enriched = await self.llm_service.process_batch(self.batch)
             # Thêm dòng này
             for prop in enriched:
                 if isinstance(prop, dict):
                     try:
+                        print("[LLM SERVICE] Enriched property:", prop)
                         prop = RealEstateProperty(**prop)
                     except Exception as e:
-                        print(f"[LLM SERVICE] Error creating RealEstateProperty: {e}")
+                        logger.error(f"[LLM SERVICE] Error creating RealEstateProperty: {e}, data={prop}")
                         continue
                 for obs in self.downstream_observers:
                     obs.notify("property_enriched", prop, source)

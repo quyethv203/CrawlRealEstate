@@ -86,7 +86,7 @@ async def run_full_crawl():
                 print(f"✅ {website_name}: Found {len(properties)} properties")
                 return len(properties)
             except Exception as e:
-                print(f"❌ Error crawling {website_name}: {e}")
+                logger.error(f"❌ Error crawling {website_name}: {e}")
                 return 0
 
         # Tạo task cho từng website
@@ -108,7 +108,7 @@ async def run_full_crawl():
         return total_properties
 
     except Exception as e:
-        print(f"❌ Crawl failed: {e}")
+        logger.info(f"❌ Crawl failed: {e}")
         import traceback
         traceback.print_exc()
         return 0
@@ -177,7 +177,7 @@ async def test_single_website(website_name):
         return True
 
     except Exception as e:
-        print(f"❌ Test failed: {e}")
+        logger.info(f"❌ Test failed: {e}")
         import traceback
         traceback.print_exc()
         return False

@@ -1,23 +1,21 @@
+import logging
 import os
 import subprocess
-import sys
 
-from fastapi import FastAPI, HTTPException, BackgroundTasks, Body
-from starlette.middleware.cors import CORSMiddleware
 from apscheduler.events import EVENT_JOB_EXECUTED, EVENT_JOB_ERROR
-from src.config.settings import Config
-
-from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.jobstores.mongodb import MongoDBJobStore
+from apscheduler.schedulers.background import BackgroundScheduler
+from fastapi import FastAPI, HTTPException, Body
+from starlette.middleware.cors import CORSMiddleware
 
+from src.config.settings import Config
 from src.data.database.connection import db
 from src.data.repositories.WebsiteStateRepository import WebsiteStateRepository
-import logging
 
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # hoặc chỉ định domain front-end
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -36,7 +34,6 @@ jobstores = {
         collection='apscheduler_jobs'
     )
 }
-
 
 
 def job_listener(event):
@@ -92,19 +89,18 @@ def stop_now(websites: list[str] = None):
     """
     Dừng các tiến trình cào ngay lập tức
     """
-    import time
     global crawl_processes
     stopped = []
     if not websites:
         websites = list(crawl_processes.keys())
     for name in websites:
         proc = crawl_processes.get(name)
-        if proc and proc.poll() is None:  # Nếu process còn chạy
+        if proc and proc.poll() is None:  
             proc.terminate()
             try:
-                proc.wait(timeout=5)  # Đợi process tự thoát trong 5s
+                proc.wait(timeout=5) 
             except subprocess.TimeoutExpired:
-                proc.kill()  # Nếu không tự thoát, kill luôn
+                proc.kill()  
             stopped.append(name)
             crawl_processes.pop(name, None)
     return {"message": f"Stopped crawling: {stopped}"}
@@ -129,7 +125,7 @@ def schedule_crawl(interval_hours: int = 24, websites: list[str] = None):
     # Nếu chỉ có 1 giờ, truyền số nguyên, nếu nhiều giờ truyền list số nguyên
     hour_arg = ",".join(str(h) for h in hours)
 
-    job_id = "crawl_main"  # Luôn dùng 1 job_id duy nhất
+    job_id = "crawl_main" 
     if scheduler.get_job(job_id):
         scheduler.remove_job(job_id)
     scheduler.add_job(
@@ -138,7 +134,7 @@ def schedule_crawl(interval_hours: int = 24, websites: list[str] = None):
         id=job_id,
         hour=hour_arg,
         minute=0,
-        args=[websites],  # truyền danh sách web vào job
+        args=[websites], 
         replace_existing=True
     )
     return {"message": f"Scheduled crawl for {websites or 'all'} at hours {hours} (every {interval_hours}h from 2AM)"}
