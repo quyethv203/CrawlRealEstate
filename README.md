@@ -2,19 +2,26 @@
 
 ## Giới thiệu
 
-**Real Estate Crawler** là hệ thống thu thập dữ liệu bất động sản tự động, đa nguồn, được thiết kế để phục vụ các nhu cầu phân tích, tổng hợp, và quản lý dữ liệu bất động sản tại Việt Nam. Dự án hỗ trợ crawl dữ liệu từ nhiều website lớn, lưu trữ tập trung vào MongoDB, cung cấp API quản lý, thống kê, và lên lịch crawl linh hoạt. Hệ thống được xây dựng với kiến trúc mở rộng, dễ bảo trì, và tích hợp logging chuyên nghiệp.
+**Real Estate Crawler** là hệ thống tự động thu thập dữ liệu bất động sản đa nguồn, hỗ trợ lưu trữ, quản lý, giám sát và phân tích dữ liệu. Dự án phù hợp cho các tổ chức, doanh nghiệp hoặc cá nhân cần xây dựng kho dữ liệu bất động sản phục vụ phân tích, báo cáo, hoặc phát triển sản phẩm số.
 
 ---
 
 ## Tính năng nổi bật
 
-- **Crawl đa nguồn:** Tự động thu thập dữ liệu từ các website bất động sản phổ biến như batdongsan.com.vn, nhatot.com, muaban.net, bds123.vn, mogi.vn, sosanhnha.com,...
-- **Lưu trữ tập trung:** Dữ liệu được lưu vào MongoDB với các model chuẩn hóa, hỗ trợ truy vấn và thống kê hiệu quả.
-- **API quản lý:** Cung cấp các endpoint RESTful để quản lý trạng thái website, lên lịch crawl, kiểm tra tiến trình, và thống kê dữ liệu.
-- **Lên lịch thông minh:** Hỗ trợ lên lịch crawl theo mốc giờ cố định (2h, 14h hoặc chỉ 2h sáng), sử dụng APScheduler, đảm bảo crawl đều đặn và tối ưu tài nguyên.
-- **Quản lý tiến trình:** Sử dụng subprocess để chạy các crawler riêng biệt, đảm bảo tính độc lập và khả năng mở rộng.
-- **Logging chuyên nghiệp:** Tích hợp Loguru, ghi log chi tiết ra file `crawler.log` (xoay vòng, nén, giữ lịch sử), hỗ trợ debug và giám sát hệ thống.
-- **Kiến trúc mở rộng:** Dễ dàng thêm mới crawler cho website khác, mở rộng API hoặc tích hợp các service xử lý dữ liệu nâng cao.
+- **Crawl đa nguồn:** Tự động thu thập dữ liệu từ các website bất động sản lớn tại Việt Nam.
+- **Lưu trữ tập trung:** Dữ liệu được chuẩn hóa và lưu vào MongoDB.
+- **API quản lý:** RESTful API cho quản lý trạng thái website, lên lịch crawl, thống kê, và truy vấn dữ liệu.
+- **Lên lịch thông minh:** Tích hợp APScheduler, hỗ trợ crawl theo mốc giờ cố định hoặc tuỳ chỉnh.
+- **Quản lý tiến trình:** Sử dụng subprocess để chạy crawler riêng biệt, đảm bảo tính ổn định và mở rộng.
+- **Logging chuyên nghiệp:** Tích hợp Loguru, ghi log chi tiết ra file `crawler.log` (xoay vòng, nén, retention).
+- **Giám sát & Monitoring:**  
+  - Log hệ thống chi tiết giúp theo dõi tiến trình crawl, lỗi, cảnh báo.
+  - Có thể tích hợp với các công cụ giám sát như Grafana, Prometheus, hoặc ELK Stack thông qua log file hoặc custom exporter.
+  - Endpoint API cung cấp thông tin trạng thái, lịch sử crawl, thống kê nguồn dữ liệu.
+- **Hiệu năng & Khả năng mở rộng:**  
+  - Thiết kế module hóa, dễ dàng mở rộng crawler cho website mới.
+  - Hỗ trợ chạy song song nhiều tiến trình crawl.
+  - Có thể triển khai trên server vật lý, cloud hoặc container.
 
 ---
 
@@ -79,10 +86,16 @@ python main.py
   curl -X POST "http://localhost:8000/schedule_crawl?interval_hours=12"
   ```
 
-### Theo dõi log
+### Theo dõi & Giám sát hệ thống
 
-- Log hệ thống được ghi vào file `crawler.log` (xoay vòng, nén tự động).
-- Có thể theo dõi log để kiểm tra tiến trình crawl, lỗi, và các cảnh báo.
+- **Log hệ thống:**  
+  - Kiểm tra file `crawler.log` để theo dõi tiến trình crawl, lỗi, cảnh báo.
+  - Có thể tích hợp log vào các hệ thống giám sát như ELK Stack, Grafana Loki, hoặc gửi alert qua email/Slack.
+- **API monitoring:**  
+  - Sử dụng các endpoint API để kiểm tra trạng thái hệ thống, lịch sử crawl, thống kê nguồn dữ liệu.
+- **Performance:**  
+  - Theo dõi số lượng bản ghi, thời gian crawl, trạng thái tiến trình qua log và API.
+  - Có thể mở rộng thêm exporter Prometheus hoặc custom metrics nếu cần.
 
 ---
 
@@ -127,4 +140,4 @@ Vui lòng tham khảo file `LICENSE` để biết chi tiết.
 
 ---
 
-**Real Estate Crawler** – Giải pháp tự động hóa thu thập dữ liệu bất động sản, phục vụ phân tích và phát triển sản phẩm số!
+**Real Estate Crawler** – Giải pháp tự động hóa thu thập, quản lý và giám sát dữ liệu bất động sản!
