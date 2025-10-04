@@ -1,93 +1,130 @@
-﻿# CrawlRealEstate
-
 # Real Estate Crawler
 
-## 🏠 Mô Tả
-Hệ thống crawler bất động sản Việt Nam sử dụng Crawl4AI và LLM để trích xuất dữ liệu từ các website:
-- BatDongSan.com.vn
-- NhaTot.com  
-- Mogi.vn
-- BDS123.com
-- MuaBanNhadat.com
-- SoSanhNha.com
+## Giới thiệu
 
-## 🚀 Tính Năng
-- **Crawl4AI Integration**: Sử dụng công nghệ Crawl4AI thay vì BeautifulSoup
-- **LLM Extraction**: AI hiểu ngữ cảnh để extract dữ liệu phức tạp
-- **Authentication**: Tự động đăng nhập các website cần thiết
-- **MongoDB Storage**: Lưu trữ dữ liệu vào MongoDB
-- **Async Processing**: Xử lý bất đồng bộ cho performance tốt
+**Real Estate Crawler** là hệ thống thu thập dữ liệu bất động sản tự động, đa nguồn, được thiết kế để phục vụ các nhu cầu phân tích, tổng hợp, và quản lý dữ liệu bất động sản tại Việt Nam. Dự án hỗ trợ crawl dữ liệu từ nhiều website lớn, lưu trữ tập trung vào MongoDB, cung cấp API quản lý, thống kê, và lên lịch crawl linh hoạt. Hệ thống được xây dựng với kiến trúc mở rộng, dễ bảo trì, và tích hợp logging chuyên nghiệp.
 
-## 📋 Yêu Cầu
-- Python 3.8+
-- MongoDB
-- Crawl4AI
-- PyMongo
-- Pydantic
+---
 
-## ⚡ Cài Đặt
+## Tính năng nổi bật
+
+- **Crawl đa nguồn:** Tự động thu thập dữ liệu từ các website bất động sản phổ biến như batdongsan.com.vn, nhatot.com, muaban.net, bds123.vn, mogi.vn, sosanhnha.com,...
+- **Lưu trữ tập trung:** Dữ liệu được lưu vào MongoDB với các model chuẩn hóa, hỗ trợ truy vấn và thống kê hiệu quả.
+- **API quản lý:** Cung cấp các endpoint RESTful để quản lý trạng thái website, lên lịch crawl, kiểm tra tiến trình, và thống kê dữ liệu.
+- **Lên lịch thông minh:** Hỗ trợ lên lịch crawl theo mốc giờ cố định (2h, 14h hoặc chỉ 2h sáng), sử dụng APScheduler, đảm bảo crawl đều đặn và tối ưu tài nguyên.
+- **Quản lý tiến trình:** Sử dụng subprocess để chạy các crawler riêng biệt, đảm bảo tính độc lập và khả năng mở rộng.
+- **Logging chuyên nghiệp:** Tích hợp Loguru, ghi log chi tiết ra file `crawler.log` (xoay vòng, nén, giữ lịch sử), hỗ trợ debug và giám sát hệ thống.
+- **Kiến trúc mở rộng:** Dễ dàng thêm mới crawler cho website khác, mở rộng API hoặc tích hợp các service xử lý dữ liệu nâng cao.
+
+---
+
+## Yêu cầu hệ thống
+
+- Python >= 3.9
+- MongoDB server
+- Các package Python: loguru, fastapi, apscheduler, pymongo, uvicorn, v.v.
+
+---
+
+## Hướng dẫn cài đặt
+
+### 1. Clone mã nguồn
+
 ```bash
-# Clone repository
-git clone <repository_url>
-cd RealEstateCrawler_Test
+git clone https://github.com/yourusername/real_estate_crawler.git
+cd real_estate_crawler
+```
 
-# Cài đặt dependencies
+### 2. Cài đặt package
+
+```bash
 pip install -r requirements.txt
-
-# Cấu hình
-cp .env.example .env
-# Sửa .env với thông tin MongoDB và authentication
 ```
 
-## 🔧 Cấu Hình
-Sửa file `src/config/settings.py`:
+### 3. Cấu hình hệ thống
+
+- Sửa file `src/config/settings.py` để cấu hình thông tin MongoDB, đường dẫn file log, các thông số crawl, v.v.
+- Đảm bảo biến môi trường hoặc file cấu hình phù hợp với môi trường triển khai.
+
+### 4. Khởi tạo logging
+
+- Đảm bảo gọi `setup_logging()` ở đầu chương trình (thường trong `main.py`):
+
 ```python
-MONGODB_URL = "mongodb://localhost:27017"
-DATABASE_NAME = "real_estate_db"
-
-# Thêm authentication cho websites cần thiết
-WEBSITES = {
-    'batdongsan.com.vn': {
-        'authentication': {
-            'required': True,
-            'credentials': {
-                'email': 'your_email@example.com',
-                'password': 'your_password'
-            }
-        }
-    }
-}
+from src.utils.logging import setup_logging
+setup_logging()
 ```
 
-## 🏃 Chạy Crawler
+---
+
+## Hướng dẫn sử dụng
+
+### Chạy hệ thống
+
 ```bash
-# Chạy crawler cho tất cả websites
 python main.py
-
-# Chạy crawler cho website cụ thể
-python run.py --site batdongsan.com.vn
 ```
 
-## 📊 Dữ Liệu
-Dữ liệu được lưu vào MongoDB collections:
-- `real_estate_properties`: Thông tin bất động sản
-- `crawl_statistics`: Thống kê crawl
+### Sử dụng API
 
-## 🔍 Monitoring
-- Logs được ghi trong terminal
-- Statistics được lưu trong database
-- Error handling với graceful degradation
+- Truy cập các endpoint qua FastAPI (mặc định chạy trên `localhost:8000`):
 
-## 📈 Performance
-- Single crawl với CSS + LLM extraction
-- Session reuse cho authenticated websites
-- Async processing với rate limiting
+  - `POST /schedule_crawl`: Lên lịch crawl tự động.
+  - `GET /websites`: Xem danh sách website và trạng thái crawl.
+  - `GET /current_schedule`: Kiểm tra lịch crawl hiện tại.
+  - `GET /stats`: Thống kê dữ liệu theo nguồn.
 
-## 🤝 Đóng Góp
-1. Fork repository
-2. Tạo feature branch
-3. Commit changes
-4. Push và tạo Pull Request
+- Ví dụ lên lịch crawl:
+  ```bash
+  curl -X POST "http://localhost:8000/schedule_crawl?interval_hours=12"
+  ```
 
-## 📄 License
-MIT License
+### Theo dõi log
+
+- Log hệ thống được ghi vào file `crawler.log` (xoay vòng, nén tự động).
+- Có thể theo dõi log để kiểm tra tiến trình crawl, lỗi, và các cảnh báo.
+
+---
+
+## Cấu trúc thư mục
+
+```
+src/
+  api/                # API quản lý, lên lịch, thống kê
+  crawlers/           # Các crawler cho từng website
+    base/             # Base class, observer, interface
+  data/
+    database/         # Kết nối, thao tác MongoDB
+    models/           # Định nghĩa model dữ liệu
+  services/           # Xử lý dữ liệu, tích hợp LLM
+  utils/              # Logging, cấu hình, tiện ích
+main.py               # Điểm khởi động hệ thống
+requirements.txt      # Danh sách package cần thiết
+README.md             # Tài liệu dự án
+```
+
+---
+
+## Mở rộng & đóng góp
+
+- Dễ dàng thêm crawler mới bằng cách kế thừa `BaseCrawler`.
+- Đóng góp code, báo lỗi hoặc đề xuất tính năng qua [GitHub Issues](https://github.com/yourusername/real_estate_crawler/issues).
+- Pull request luôn được chào đón!
+
+---
+
+## License
+
+MIT License.  
+Vui lòng tham khảo file `LICENSE` để biết chi tiết.
+
+---
+
+## Liên hệ
+
+- Email: your.email@example.com
+- Github: [yourusername](https://github.com/yourusername)
+
+---
+
+**Real Estate Crawler** – Giải pháp tự động hóa thu thập dữ liệu bất động sản, phục vụ phân tích và phát triển sản phẩm số!
