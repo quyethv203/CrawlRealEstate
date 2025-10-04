@@ -135,8 +135,8 @@ Vui lòng tham khảo file `LICENSE` để biết chi tiết.
 
 ## Liên hệ
 
-- Email: your.email@example.com
-- Github: [yourusername](https://github.com/yourusername)
+- Email: quyethoang312003@gmail.com
+- Github: [quyethv203](https://github.com/quyethv203)
 
 ---
 
